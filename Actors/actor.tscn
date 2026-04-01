@@ -1,6 +1,7 @@
 [gd_scene format=3 uid="uid://u14v0lqurhy5"]
 
 [ext_resource type="Script" uid="uid://ddv6jn72ekpv3" path="res://Actors/actor.gd" id="1_0csou"]
+[ext_resource type="Script" uid="uid://ch1rrvx2f3wmf" path="res://Systems/Components/movement_component.gd" id="2_1q57a"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_1q57a"]
 
@@ -16,3 +17,6 @@ shape = SubResource("CircleShape2D_1q57a")
 position = Vector2(0.18749985, -0.5625)
 scale = Vector2(16.375, 16.875)
 texture = SubResource("PlaceholderTexture2D_4pvqt")
+
+[node name="MovementComponent" type="Node" parent="." unique_id=1521644069]
+script = ExtResource("2_1q57a")

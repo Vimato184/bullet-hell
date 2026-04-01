@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://bjqn03dl6debg"]
+
+[ext_resource type="PackedScene" uid="uid://u14v0lqurhy5" path="res://Actors/actor.tscn" id="1_5ni5v"]
+[ext_resource type="Script" uid="uid://cmsyyreho55v4" path="res://Actors/Player/player.gd" id="2_b63gh"]
+[ext_resource type="Script" uid="uid://7kywwprkwyjv" path="res://Systems/Components/player_input_component.gd" id="2_v1key"]
+
+[node name="Player" unique_id=456124090 instance=ExtResource("1_5ni5v")]
+script = ExtResource("2_b63gh")
+
+[node name="InputComponent" type="Node" parent="." index="3" unique_id=367989846]
+script = ExtResource("2_v1key")
