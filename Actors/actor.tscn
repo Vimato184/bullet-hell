@@ -4,17 +4,18 @@
 [ext_resource type="Script" uid="uid://ch1rrvx2f3wmf" path="res://Systems/Components/movement_component.gd" id="2_1q57a"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_1q57a"]
+radius = 9.055386
 
 [sub_resource type="PlaceholderTexture2D" id="PlaceholderTexture2D_4pvqt"]
 
 [node name="Actor" type="CharacterBody2D" unique_id=456124090]
+position = Vector2(0, -8)
 script = ExtResource("1_0csou")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1058660576]
 shape = SubResource("CircleShape2D_1q57a")
 
 [node name="Placeholder" type="Sprite2D" parent="." unique_id=486440119]
-position = Vector2(0.18749985, -0.5625)
 scale = Vector2(16.375, 16.875)
 texture = SubResource("PlaceholderTexture2D_4pvqt")
 

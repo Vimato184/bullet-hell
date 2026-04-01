@@ -626,4 +626,3 @@ tile_map_data = PackedByteArray("AAAAAAAAAAAJAAcAAAABAAAAAAAJAAcAAAACAAEAAAAJAAc
 tile_set = SubResource("TileSet_j8job")
 
 [node name="Actor" parent="." unique_id=456124090 instance=ExtResource("2_8a836")]
-position = Vector2(49, 49)
